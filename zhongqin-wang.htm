@@ -9,22 +9,37 @@
     rel="stylesheet" type="text/css"> 
   <TITLE>Zhonqin Wang</TITLE> 
   <META name="GENERATOR" content="MSHTML 11.00.10570.1001">
+  <TITLE>line-height</TITLE> 
+  <style>
+    .normal-line-height {line-height: 1.5;}
+    .large-line-height {line-height: 2;}
+  </style>
+  <title>一半左对齐一半右对齐</title>
+  <style>
+      .container {
+          display: flex;
+          justify-content: space-between;
+      }
+      .left {
+          text-align: left;
+          width: 50%;
+      }
+      .right {
+          text-align: right;
+          width: 50%;
+      }
+  </style>
 </HEAD>
 
 
 <BODY> 
   <DIV id="layout-content" style="margin-top: 25px;">
-   <style>
-    .normal-line-height {line-height: 1.5;}
-    .large-line-height {line-height: 2;}
-  </style>
   <TABLE>
     <TBODY>
     <TR>
       <TD width="670">
         <DIV id="toptitle">
         <H1>Dr. Zhonqin Wang &nbsp;</H1></DIV>
-        <BR>
         <BR>
         <BR>
         <BR> Email:  
@@ -60,14 +75,12 @@
   </ul>
 
   <H2>WORK EXPERIENCE</H2>
-  <UL>
-    <LI>
-      Our paper "Learning to Match Anchors for Visual Object Detection" has been accepted by IEEE TPAMI 2021</A>.
-    </LI>
-    <LI>
-      New version of FreeAnchor code is released <A href="https://github.com/zhangxiaosong18/FreeAnchor">[here]</A>.
-    </LI>
-  </UL>
+  <div class="container">
+    <div class="left"><b>University of Technology Sydney, Australia</b></div>
+    <div class="right">Feb. 2024 - Present</div>
+</div>
+  <P class="normal-line-height"> <b>University of Technology Sydney, Australia</b>
+  </P>
 
   <H2>Publications</H2>
     <table class="pub_table">
