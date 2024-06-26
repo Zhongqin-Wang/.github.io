@@ -1,1 +1,1 @@
-#### [HomePage of zhongqin-wang](https://zhongqin-wang.github.io//zhongqin-wang.htm).
+#### [HomePage of ZhongQin-Wang](https://zhongqin-wang.github.io//zhongqin-wang.htm).
