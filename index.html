@@ -44,7 +44,7 @@
       }
   </style>
   <style>
-    table.pub_table,td.pub_td1,td.pub_td2
+    table.pub_table,td.pub_td1_p,td.pub_td1_d,td.pub_td2
   {
   padding: 8px;
   /* width: 860px; */
@@ -52,11 +52,20 @@
       border-spacing: 15px;
       margin-top: -5px;
   }
-  td.pub_td1
+  td.pub_td1_p
   {
   width:50px;
   }
-  td.pub_td1 img
+  td.pub_td1_d
+  {
+  width:50px;
+  }
+  td.pub_td1_p img
+  {
+    /*height:120px;*/
+    width: 180px;
+  }
+  td.pub_td1_d img
   {
     /*height:120px;*/
     width: 250px;
@@ -199,8 +208,9 @@
   <H2>PUBLICATIONS</H2>
   <table class="pub_table">
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/1.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/1.png" class="papericon" width="150"></td>
       <td class="pub_td2">
+        <!--
         <b>[1]Single-Target Real-Time Passive WiFi Tracking</b>
         <br>
         <br>In this work, we present a scheme named WiFi Doppler Frequency Shift (WiDFS),
@@ -208,39 +218,55 @@
          information (CSI) collected from commercial-off-the-shelf (COTS) WiFi devices. 
          We consider the typical system setup including a transmitter with a single antenna and a receiver with three antennas.
         <br>
+        -->
+        <p>[1] <b>Zhongqin Wang</b>, J. Andrew Zhang, Min Xu and Y. Jay Guo. Single-Target 
+          Real-Time Passive WiFi Tracking, <i>IEEE Transactions on Mobile Computing</i>, vol.22, 
+          no. 6, pp. 3724-3742, 2023. <i>(CORE A*, JCR Q1, IF: 6.075)</i></p>
         [<a href="https://ieeexplore.ieee.org/abstract/document/9679386">Paper</a>]
         [<a href="https://youtu.be/UvceJ2OnJmE&t=73s">Demo</a>]
       </td>
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/2.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/2.png" class="papericon" width="200"></td>
       <td class="pub_td2">
+        <!--
         <b>[2]Development of an Uplink Sensing Demonstrator for Perceptive Mobile Networks</b>
         <br>
         <br>This paper introduces the development of a real-time uplink sensing demonstrator for PMN, 
         enabling sub-meter precision tracking in indoor environments. 
         <br>
+        -->
+        <p>[2] Kuangda Chen, J. Andrew Zhang, <b>Zhongqin Wang</b> and Y. Jay Guo. Development 
+          of an Uplink Sensing Demonstrator for Perceptive Mobile Networks. <i>In Proc. of IEEE 
+          ISCIT</i>, pp. 191-196, 2023.</p>
         [<a href="https://ieeexplore.ieee.org/abstract/document/10376089">Paper</a>]
       </td>
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/3.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/3.png" class="papericon" width="250"></td>
       <td class="pub_td2">
+        <!--
         <b>[3]Vital Sign Monitoring in Dynamic Environment via mmWave Radar and Camera Fusion</b>
         <br>
         <br>In this paper, we propose a robust mmWave radar and camera fusion system for 
         monitoring vital signs, which can perform consistently well in dynamic scenarios, 
         e.g., when some people move around the subject to be tracked, or a subject waves his/her arms and marches on the spot. 
         <br>
+        -->
+        <p>[3] Yingqi Wang, <b>Zhongqin Wang</b>, J. Andrew Zhang, Haimin Zhang, Min Xu. 
+          Vital Sign Monitoring in Dynamic Environment via mmWave Radar and Camera Fusion, 
+          <i>IEEE Transactions on Mobile Computing</i>, pp. 1-17, 2023, doi:10.1109/
+          TMC.2023.3288850.</p>
         [<a href="https://ieeexplore.ieee.org/abstract/document/10160149">Paper</a>]
       </td>
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/4.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/4.png" class="papericon" width="300"></td>
       <td class="pub_td2">
+        <!--
         <b>[4]Accurate AoA Estimation for RFID Tag Array with Mutual Coupling</b>
         <br>
         <br>In this article, we propose a scheme called RF-Mirror that can resolve the mutual coupling and phase jump 
@@ -248,25 +274,36 @@
         impact of mutual coupling on a tag’s signal fingerprint and develop novel RSSI/phase-distance models.  We then 
         develop new experimental methods and signal processing techniques to verify the effectiveness of the proposed models. 
         <br>
+        -->
+        <p>[4] <b>Zhongqin Wang</b>, J. Andrew Zhang, Fu Xiao, Min Xu. Accurate AoA 
+          Estimation for RFID Tag Array with Mutual Coupling, <i>IEEE Internet of Things Journal</i>
+          , vol. 9, no. 15, pp. 12954-12972, 2022. <i>(JCR Q1, IF: 10.238)</i></p>
         [<a href="https://ieeexplore.ieee.org/abstract/document/9761169">Paper</a>]
       </td>
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/5.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/5.png" class="papericon" width="300"></td>
       <td class="pub_td2">
+        <!--
         <b>[5]Computer Vision-assisted 3D Object Localization via COTS RFID Devices and a Monocular Camera</b>
         <br>
         <br>In this article, we present RF-MVO that fuses RFID and computer vision for stationary RFID localization 
         in 3D space by attaching a light-weight 2D monocular camera to two reader antennas in parallel.
         <br>
+        -->
+        <p>[5] <b>Zhongqin Wang</b>, Min Xu, Ning Ye, Ruchuan Wang, Haiping Huang and Fu Xiao. 
+          Computer Vision-assisted 3D Object Localization via COTS RFID Devices and a Monocular 
+          Camera, <i>IEEE Transactions on Mobile Computing</i>, vol. 20, no. 3, pp. 893 - 908, 
+          2021. <i>(CORE A*, JCR Q1, IF: 6.075)</i></p>
         [<a href="https://ieeexplore.ieee.org/abstract/document/8908665">Paper</a>]
       </td>
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/6.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/6.png" class="papericon" width="300"></td>
       <td class="pub_td2">
+        <!--
         <b>[6]Recognizing 3D Orientation of a Two-RFID-Tag Labeled Object in Multipath Environments Using Deep Transfer Learning</b>
         <br>
         <br> In this paper, we propose RF-Orien3D that minimizes these interferences for accurate 3D orientation 
@@ -274,52 +311,75 @@
         modulation factor of each tag in the two-element tag array, which can be estimated to compensate for the 
         distortion in RFID fingerprints.
         <br>
+        -->
+        <p>[6] <b>Zhongqin Wang</b>, Min Xu, Fu Xiao. Recognizing 3D Orientation of a Two-RFID-Tag
+          Labeled Object in Multipath Environments Using Deep Transfer Learning. 
+          <i>In Proc. of IEEE ICDCS</i>, pp. 652-662, 2021. <i>(CORE A, 97/489)</i></p>
         [<a href="https://ieeexplore.ieee.org/abstract/document/9546442">Paper</a>]
       </td>
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/7.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/7.png" class="papericon" width="300"></td>
       <td class="pub_td2">
+        <!--
         <b>[7]RF-Mirror: Mitigating Mutual Coupling Interference in Two-Tag Array Labeled RFID Systems</b>
         <br>
         <br> In this paper, we present RF-Mirror that enables compensating the distortion in a two-tag array 
         labeled RFID system. The system would output the accurate difference in tag-to-antenna distances between 
         two tags, which is a fundamental parameter in previous works for use.
         <br>
+        -->
+        <p>[7] <b>Zhongqin Wang</b>, Min Xu, Ning Ye, Ruchuan Wang, Haiping Huang and Fu Xiao.
+          RF-Mirror: Mitigating Mutual Coupling Interference in Two-Tag Array Labeled RFID 
+          Systems. <i>In Proc. of IEEE SECON</i>, pp. 1-9, 2020. <i>(CORE B, 36/129)</i></p>
         [<a href="https://ieeexplore.ieee.org/abstract/document/9158443">Paper</a>]
       </td>
     </tr>
 
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/8.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/8.png" class="papericon" width="300"></td>
       <td class="pub_td2">
+        <!--
         <b>[8] RF-Focus: Computer Vision-assisted Region-of-interest RFID Tag Recognition and Localization in Multipath-prevalent Environments</b>
         <br>
         <br> In this paper, we propose a comprehensive solution, called RF-Focus, which fuses RFID and computer vision (CV) 
         techniques to recognize and locate moving RFID-tagged objects within ROI. 
         <br>
+        -->
+        <p>[8] <b>Zhongqin Wang</b>, Min Xu, Ning Ye, Ruchuan Wang and Haiping Huang. RF-Focus:
+          Computer Vision-assisted Region-of-interest RFID Tag Recognition and Localization in
+           Multipath-prevalent Environments. <i>Proceedings of the ACM on Interactive, Mobile, 
+             Wearable and Ubiquitous Technologies</i>, vol.3, no. 1, pp. 29, 2019. 
+              <i>(UbiComp, CORE A*)</i></p>
         [<a href="https://dl.acm.org/doi/abs/10.1145/3314416">Paper</a>]
       </td>
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/9.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/9.png" class="papericon" width="300"></td>
       <td class="pub_td2">
+        <!--
         <b>[9]RF-MVO: Simultaneous 3D Object Localization and Camera Trajectory Recovery Using RFID Devices and a 2D Monocular Camera</b>
         <br>
         <br>this paper presents RF-MVO, which fuses battery-free RFID and monocular visual odometry to locate stationary 
         RFID tags in a 3D space and recover an unknown trajectory of reader antennas binding with a 2D monocular camera. 
         The proposed hybrid system exhibits three unique features.
         <br>
+        -->
+        <p>[9] <b>Zhongqin Wang</b>, Min Xu, Ning Ye, Ruchuan Wang and Haiping Huang. RF-MVO: 
+          Simultaneous 3D Object Localization and Camera Trajectory Recovery Using RFID Devices
+           and a 2D Monocular Camera. <i>In Proc. of IEEE ICDCS</i>, pp. 534-544, 2018. 
+           <i>(CORE A, 78/378)</i></p>
         [<a href="https://ieeexplore.ieee.org/abstract/document/8416322">Paper</a>]
       </td>
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/10.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/10.png" class="papericon" width="300"></td>
       <td class="pub_td2">
+        <!--
         <b>[10]A See-Through-wall System for Device-free Human Motion Sensing Based on Battery-free RFID</b>
         <br>
         <br>Recently, a low-cost RFID technology has gained a lot of attention in this field. 
@@ -327,13 +387,19 @@
         are sensitive to external interference, the RFID tag could be regarded as a battery-free sensor that detects 
         reflections off targeted objects. 
         <br>
+        -->
+        <p>[10] <b>Zhongqin Wang</b>, Fu Xiao, Ning Ye, Ruchuan Wang and Panlong Yang. 
+          A See-Through-wall System for Device-free Human Motion Sensing Based on Battery-free 
+          RFID, <i>ACM Transactions on Embedded Computing Systems</i>, vol. 17, no. 1, pp. 
+          1-21, 2017. <i>(CORE B, JCR Q3, IF: 1.886)</i></p>
         [<a href="https://dl.acm.org/doi/abs/10.1145/3055515">Paper</a>]
       </td>
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/11.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/11.png" class="papericon" width="300"></td>
       <td class="pub_td2">
+        <!--
         <b>[11]One More Tag Enables Fine-Grained RFID Localization and Tracking</b>
         <br>
         <br>In this paper, we propose a comprehensive localization and tracking scheme by attaching two RFID tags to one 
@@ -342,13 +408,18 @@
         calibration of the reader's antenna location and spacing, and 3) enabling fine-grained calculation on the 
         orientation of the tags. All of these advantages ultimately improve the localization/tracking accuracy. 
         <br>
+        -->
+        <p>[11] Fu Xiao, <b>Zhongqin Wang</b>, Ning Ye, Ruchuan Wang and Xiang-Yang Li. One 
+          More Tag Enables Fine-Grained RFID Localization and Tracking, <i>IEEE/ACM Transactions 
+            on Networking</i>, vol. 26, no. 1, pp. 161-174, 2017. <i>(CORE A*, JCR Q1, IF: 3.796)</i></p>
         [<a href="https://ieeexplore.ieee.org/abstract/document/8106689">Paper</a>]
       </td>
     </tr>
     
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/12.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/12.png" class="papericon" width="300"></td>
       <td class="pub_td2">
+        <!--
         <b>[12]TrackT: Accurate Tracking of RFID Tags with mm-level Accuracy Using First-order Taylor Series Approximation</b>
         <br>
         <br>In this work, we propose a method based on measured phase to track mobile RFID tags with millimeter level 
@@ -356,14 +427,20 @@
         there is a virtual tag as the same as the tracked one in each grid. On this basis, for the case where the tags 
         move along a known track with constant speed, we only need to locate the tag's initial position. 
         <br>
+        -->
+        <p>[12] <b>Zhongqin Wang</b>, Ning Ye, Reza Malekiand, Fu Xiao and Ruchuan Wang. 
+          TrackT: Accurate Tracking of RFID Tags with mm-level Accuracy Using First-order Taylor 
+          Series Approximation, <i>Ad Hoc Networks</i>, vol. 53, pp. 132-144, 2016. 
+          <i>(JCR Q1, IF: 4.816)</i></p>
         [<a href="https://www.sciencedirect.com/science/article/abs/pii/S1570870516302736">Paper</a>]
         [<a href="https://youtu.be/iz98y3m6A64">Demo</a>]
       </td>
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./PaperFig/13.png" class="papericon" width="300"></td>
+      <td class="pub_td1_p"><img src="./PaperFig/13.png" class="papericon" width="300"></td>
       <td class="pub_td2">
+        <!--
         <b>[13]TMicroscope: Behavior Perception Based on the Slightest RFID Tag Motion</b>
         <br>
         <br>In this paper, we propose a RFID-based method to perceive slight motion of a target product with RFID 
@@ -372,6 +449,11 @@
         Next, we divide the surveillance region into mm-level grids to construct similarity matrixes of the 
         tracked tag before and after human motion, which can accurately distinguish absence or presence of tag motion.
         <br>
+        -->
+        <p>[13] <b>Zhongqin Wang</b>, Ning Ye, Reza Malekian, Ruchuan Wang and Peng Li.
+          TMicroscope: Behavior Perception Based on the Slightest RFID Tag Motion. 
+          <i>Elektronika ir Elektrotechnika</i>, vol. 22, no. 2, pp.114-122, 2016. 
+          <i>(JCR Q3, IF: 1.059)</i></p>
         [<a href="https://www.eejournal.ktu.lt/index.php/elt/article/view/14603">Paper</a>]
         [<a href="https://youtu.be/a2M32Vg66Kc">Demo</a>]
       </td>
@@ -431,7 +513,7 @@
   <H2>DEMO</H2>
   <table class="pub_table">
     <tr>
-      <td class="pub_td1"><img src="./files/demo_1.gif" class="papericon" width="300"></td>
+      <td class="pub_td1_d"><img src="./files/demo_1.gif" class="papericon" width="300"></td>
       <td class="pub_td2">
         <b>mmWave Radar Sensing</b>
         <br>
@@ -445,7 +527,7 @@
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./files/demo_2.gif" class="papericon" width="300"></td>
+      <td class="pub_td1_d"><img src="./files/demo_2.gif" class="papericon" width="300"></td>
       <td class="pub_td2">
         <b>Head Pose Estimation via mmWave Radar</b>
         <br>
@@ -462,7 +544,7 @@
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./files/demo_3.gif" class="papericon" width="300"></td>
+      <td class="pub_td1_d"><img src="./files/demo_3.gif" class="papericon" width="300"></td>
       <td class="pub_td2">
         <b>Single-Target Real-Time Passive WiFi Tracking</b>
         <br>
@@ -477,7 +559,7 @@
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./files/demo_4.gif" class="papericon" width="300"></td>
+      <td class="pub_td1_d"><img src="./files/demo_4.gif" class="papericon" width="300"></td>
       <td class="pub_td2">
         <b>High sensitivity RFID security sensing system</b>
         <br>
@@ -490,7 +572,7 @@
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./files/demo_5.gif" class="papericon" width="300"></td>
+      <td class="pub_td1_d"><img src="./files/demo_5.gif" class="papericon" width="300"></td>
       <td class="pub_td2">
         <b>Active target location based on passive RFID</b>
         <br>
@@ -503,7 +585,7 @@
     </tr>
 
     <tr>
-      <td class="pub_td1"><img src="./files/demo_6.gif" class="papericon" width="300"></td>
+      <td class="pub_td1_d"><img src="./files/demo_6.gif" class="papericon" width="300"></td>
       <td class="pub_td2">
         <b>Human motion detection and direction recognition</b>
         <br>
